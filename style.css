@@ -78,7 +78,12 @@
 
     /* recent */
     .recent{display:flex;flex-wrap:wrap;gap:8px}
-    .chip{background:rgba(255,255,255,.08);padding:8px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.12);cursor:pointer}
+    .chip{
+      padding: 14px 12px;
+      border-radius: 999px;
+      border: 2px solid rgba(190, 199, 199, 0.12);
+      cursor: pointer;
+    }
 
     /* footer */
     footer{color:var(--muted);font-size:40px;padding-bottom:32px}
@@ -87,3 +92,4 @@
   width: 70% !important;
   height: 300px; 
 }
+
